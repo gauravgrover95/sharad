@@ -27,6 +27,11 @@ body {
 	background: grey;
 }
 
+.something {
+	float: right;
+	margin-top: 20px;
+}
+
 
 
 
