@@ -41,6 +41,7 @@ body {
 	margin-bottom: 25px;
 	background: transparent;
 	border-bottom: 0;
+	box-shadow: none;
 }
 
 #logo {
@@ -282,6 +283,56 @@ body {
 	margin-top: 100px;
 }
 
+
+/* Contact Page */
+
+.contact .wrapper {
+	background: white;
+	width: 970px;
+	margin: auto;
+}
+
+/*.contact .container-l {
+	margin-left: initial;
+	margin-right: auto;
+	width: 50%;
+}*/
+
+.contact .container {
+	width: 100%;
+	margin: 90px auto;
+}
+
+.contact .container-l h5{
+	margin-left: 6px; 
+} 
+
+.contact .container-l p {
+	margin-left: 6px; 
+}
+/*
+.contact .container-r {
+	float: right;
+	margin-left: auto;
+	margin-right: initial;
+	width: 49%;	
+}*/
+
+.contact .container-r .map {
+	height: 300px;
+	width: 300px;
+	background: purple;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.contact .text-center {
+	text-align: center;
+}
+
+* {
+	/*border: 1px solid black;*/
+}
 /********************************************************************************/
 
 #contact{
@@ -296,21 +347,4 @@ body {
 	float: right;
 	margin-top: 20px;
 }
-
-
-#yourElement {
-  -vendor-animation-duration: 3s;
-  -vendor-animation-delay: 2s;
-  -vendor-animation-iteration-count: infinite;
-}
-
-
-
-
-
-
-
-
-
-
 
