@@ -68,7 +68,7 @@ body {
 }
 
 .drbl {
-	background: url(../img/drbl.svg);
+	background: url("../img/Dribbble Normal.svg");
 }
 
 .drbl:hover {
@@ -140,8 +140,10 @@ body {
 }
 
 .logo p {
+	position: relative;
 	font-size: 18px;
 	display: none;
+	top: 40px;
 }
 
 
@@ -176,6 +178,25 @@ body {
 	top: 4.5px;
 	font-size: 22px;
 	margin-right: 9px;
+}
+
+
+.about .wrapper{
+	width: 970px;
+	margin: auto;
+}
+
+.about .jumbotron {
+	height: 300px;
+}
+
+.about .jumbotron img {
+	background: black;
+	display: table;
+	margin: auto;
+	height: 400px;
+	width: 100px;
+	border-radius: 100%;
 }
 
 #about {
