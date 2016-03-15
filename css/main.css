@@ -30,13 +30,28 @@ body {
 
 
 .logo {
+	position: relative;
 	display: table;
 	margin: auto;
 	width: 38vw;
 	border: 1px dashed white;
 	height: 300px;
+	color: white;
+	padding: 15px;
 }
 
+.logo h1 {
+	position: absolute;
+	top:20px;
+	left: 60px;
+	font-size: 84px;
+	text-align: center;
+}
+
+.logo p {
+	font-size: 18px;
+	display: none;
+}
 
 .info-page {
 	position: absolute;
