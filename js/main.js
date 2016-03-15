@@ -1,7 +1,8 @@
 
 
 $(".iclose").click(function() {
-	$(".about").addClass("animated hinge");
+	$(".about").addClass("animated fadeOutDownBig");
+
 });
 
 $(".link").click(function() {
