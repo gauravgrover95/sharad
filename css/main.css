@@ -1,0 +1,42 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.navbar {
+	position: relative;
+	height: 15vh;
+	margin-bottom: 0;
+	background: transparent;
+	border-bottom: 0;
+}
+
+.info-page {
+	height: 85vh;
+	width: 100vw;
+	display: none;
+}
+
+.about {
+	background: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
