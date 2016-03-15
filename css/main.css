@@ -25,6 +25,9 @@ body {
 
 .about {
 	background: grey;
+	animation-duration: 1.5s;
+	/*-vendor-animation-delay: 2s;*/
+	/*-vendor-animation-iteration-count: infinite;*/
 }
 
 .something {
@@ -33,7 +36,11 @@ body {
 }
 
 
-
+#yourElement {
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}
 
 
 
