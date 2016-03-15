@@ -67,7 +67,47 @@ body {
 	width: 32px;
 }
 
-/*LOGO*/
+.drbl {
+	background: url(../img/drbl.svg);
+}
+
+.drbl:hover {
+	background: url(../img/drbl.h.svg);
+}
+
+.twtr {
+	background: url(../img/twtr.svg);
+}
+
+.twtr:hover {
+	background: url(../img/twtr.h.svg);
+}
+
+.fb {
+	background: url(../img/fb.svg);
+}
+
+.fb:hover {
+	background: url(../img/fb.h.svg);
+}
+
+.be {
+	background: url(../img/be.svg);
+}
+
+.be:hover {
+	background: url(../img/be.h.svg);
+}
+
+.gplus {
+	background: url(../img/gplus.svg);
+}
+
+.gplus:hover {
+	background: url(../img/gplus.h.svg);
+}
+
+/* CENTERED LOGO*/
 
 .logo {
 	position: relative;
@@ -131,6 +171,12 @@ body {
 	list-style: disc;
 }
 
+#bull {
+	position: relative;
+	top: 4.5px;
+	font-size: 22px;
+	margin-right: 9px;
+}
 
 #about {
 	cursor: pointer;
