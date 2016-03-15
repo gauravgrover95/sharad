@@ -1,7 +1,11 @@
 
 
-$(".something, .link").click(function() {
-	$(".about").toggle().addClass("animated bounceInUp");
+$(".iclose").click(function() {
+	$(".about").addClass("animated hinge");
+});
+
+$(".link").click(function() {
+	$(".about").show().addClass("animated bounceInUp");
 });
 
 $(".logo").mouseenter(function(){
