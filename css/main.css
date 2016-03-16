@@ -21,7 +21,7 @@ div {
 
 body {
 	overflow-x: hidden;
-	/*overflow-y: hidden;*/
+	overflow-y: hidden;
 	font-family: "Regencie Light";
 }
 
@@ -166,6 +166,10 @@ body {
 	display: none;
 	background: white;
 	box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow-y: scroll;
+}
+
+.btn-close {
 }
 
 .footer {
@@ -222,8 +226,7 @@ body {
 	position: absolute;
 	top: 10px;
 	right: 30px;
-	background: url("../img/down.png");
-	border: 1px solid black;
+	background: url("../img/down.svg") no-repeat;
 	top: 100px;
 	height: 20px;
 	width: 30px;
