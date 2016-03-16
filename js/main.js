@@ -41,16 +41,16 @@ $(".iclose, .btn-close").click(function() {
 });
 
 $("#about").click(function() {
-	$(".about").css("animation-duration", "1.5s").show().removeClass("animated bounceInUp").addClass("animated bounceInUp");
+	$(".about").css("animation-duration", "1.5s").show().removeClass("animated slideOutDown").addClass("animated bounceInUp");
 	transitNavUp();
 });
 
 $("#work").click(function() {
-	$(".work").css("animation-duration", "1.5s").show().removeClass("animated bounceInUp").addClass("animated bounceInUp");
+	$(".work").css("animation-duration", "1.5s").show().removeClass("animated slideOutDown").addClass("animated bounceInUp");
 	transitNavUp();
 });
 
 $("#contact").click(function() {
-	$(".contact").css("animation-duration", "1.5s").show().removeClass("animated bounceInUp").addClass("animated bounceInUp");
+	$(".contact").css("animation-duration", "1.5s").show().removeClass("animated slideOutDown").addClass("animated bounceInUp");
 	transitNavUp();
 });
