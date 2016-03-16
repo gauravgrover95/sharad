@@ -3,9 +3,11 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {font-family:"Hero-Light";src:url("../fonts/Hero-Light/Hero_Light.eot?") format("eot"),url("../fonts/Hero-Light/Hero_Light.woff") format("woff"),url("../fonts/Hero-Light/Hero_Light.ttf") format("truetype"),url("../fonts/Hero-Light/Hero_Light.svg#Hero-Light") format("svg");font-weight:normal;font-style:normal;}
 
 
 @font-face {font-family:"Regencie Light";src:url("../fonts/Regencie_Light/RegencieLight.eot?") format("eot"),url("../fonts/Regencie_Light/RegencieLight.woff") format("woff"),url("../fonts/Regencie_Light/RegencieLight.ttf") format("truetype"),url("../fonts/Regencie_Light/RegencieLight.svg#RegencieLight") format("svg");font-weight:normal;font-style:normal;}
+
 
 
 /*
@@ -78,7 +80,8 @@ body {
 }
 
 .drbl {
-	background: url("../img/Dribbble Normal.svg");
+	background: url("../img/pngicons/Dribbble Normal.png") no-repeat;
+	background-size: 35px 35px;
 }
 
 .drbl:hover {
@@ -86,7 +89,8 @@ body {
 }
 
 .twtr {
-	background: url(../img/twtr.svg);
+	background: url("../img/pngicons/Twitter  Normal.png") no-repeat;
+	background-size: 35px 35px;
 }
 
 .twtr:hover {
@@ -94,7 +98,7 @@ body {
 }
 
 .fb {
-	background: url(../img/fbpng.png) no-repeat;
+	background: url("../img/pngicons/Facebook Normal.png") no-repeat;
 	background-size: 35px 35px;
 }
 
@@ -103,7 +107,8 @@ body {
 }
 
 .be {
-	background: url(../img/be.svg);
+	background: url("../img/pngicons/Behance Normal.png") no-repeat;
+	background-size: 35px 35px;
 }
 
 .be:hover {
@@ -111,7 +116,8 @@ body {
 }
 
 .gplus {
-	background: url(../img/gplus.svg);
+	background: url("../img/pngicons/Google Normal.png") no-repeat;
+	background-size: 35px 35px;
 }
 
 .gplus:hover {
@@ -161,7 +167,7 @@ body {
 
 .info-page {
 	position: absolute;
-	top: 10vh;
+	top: 12vh;
 	height: 90vh;
 	width: 100vw;
 	display: none;
@@ -203,10 +209,15 @@ body {
 	background: white;
 }
 
+
 .about .jumbotron {
 	position: relative;
 	background: white;
 	height: 300px;
+}
+
+.about .jumbotron h2 {
+	font-size: 28px;
 }
 
 .about .jumbotron p {
@@ -215,7 +226,34 @@ body {
 }
 
 .about .container {
+	margin-top: 100px;
 	width: 90%;
+}
+
+.about .content strong {
+	font-family: "Hero-Light";
+	/*font-weight: bold;*/
+}
+
+.about dd {
+	margin-bottom: 20px;
+}
+
+.about h5 {
+	margin-bottom: 13px;
+	font-size: 23px;
+	font-family: "Hero-Light";
+}
+
+.about .block {
+	font-size: 15px;
+}
+
+.about .bull {
+	position: relative;
+	top: 7px;
+	color: #77008B;
+	font-size: 38px;
 }
 
 .about .col{
@@ -248,14 +286,58 @@ body {
 	border-radius: 100%;
 }
 
+.about .container {
+	width: 1000px;
+}
+
 #about {
 	cursor: pointer;
+}
+
+.about .block small {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+
+.about h5.achiv {
+	margin-top: 40px;
 }
 
 .about small {
 	font-weight: lighter;
 	font-style: italic;
 }
+
+.about .resume {
+	position: relative;
+	width: 155px;
+	font-weight: bold;
+	background: #77008B;
+	border-radius: 5px;
+	text-transform: capitalize;
+	font-family: "Hero-Light" !important;
+	/*font-family: Times;*/
+	font-size: 16px;
+}
+
+.about .resume span {
+	position: absolute;
+	left: 28px;
+	top: 0;
+}
+
+.about .resume img {
+	position: absolute;
+	top: 6px;
+	right: 24px;
+	height: 20px;
+	width: 20px;
+}
+
+.about .foot {
+	margin-top: 100px;
+}
+
 
 
 /* Work Page */
@@ -346,6 +428,10 @@ body {
 
 .contact .text-center {
 	text-align: center;
+}
+
+.contact .foot {
+	margin-top: 150px;
 }
 
 * {
