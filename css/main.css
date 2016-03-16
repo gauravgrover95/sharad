@@ -54,6 +54,15 @@ body {
 	margin-left: 5px;
 }
 
+#name {
+	position: absolute;
+	display: none;
+	top: 10px;
+	left: 100px;
+	font-weight: bolder;
+	font-size: 1.2em;
+}
+
 .icons {
 	position: absolute;
 	top: 20px;
