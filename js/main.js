@@ -8,8 +8,6 @@ var transitNavUp = function() {
 	$("#lgt").css("position", "absolute");
 	$("#lgt").css("left", "0px");
 	$("#lgt").transition({y:'-6vh'}, 500, 'ease');
-
-
 	// setTimeout(function(){ $("#name").fadeIn();}, 1200);
 
 };

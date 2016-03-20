@@ -85,7 +85,8 @@ body {
 }
 
 .drbl:hover {
-	background: url(../img/drbl.h.svg);
+	background: url("../img/pngicons/Dribbble Zap.png") no-repeat;
+	background-size: 35px 35px;
 }
 
 .twtr {
@@ -94,7 +95,8 @@ body {
 }
 
 .twtr:hover {
-	background: url(../img/twtr.h.svg);
+	background: url("../img/pngicons/Twitter  Zap.png") no-repeat;
+	background-size: 35px 35px;
 }
 
 .fb {
@@ -103,7 +105,8 @@ body {
 }
 
 .fb:hover {
-	background: url(../img/fb.h.svg);
+	background: url("../img/pngicons/Facebook Zap.png") no-repeat;
+	background-size: 35px 35px;
 }
 
 .be {
@@ -112,7 +115,8 @@ body {
 }
 
 .be:hover {
-	background: url(../img/be.h.svg);
+	background: url("../img/pngicons/Behance Zap.png") no-repeat;
+	background-size: 35px 35px;
 }
 
 .gplus {
@@ -121,7 +125,8 @@ body {
 }
 
 .gplus:hover {
-	background: url(../img/gplus.h.svg);
+	background: url("../img/pngicons/Google Zap.png") no-repeat;
+	background-size: 35px 35px;
 }
 
 /* CENTERED LOGO*/
@@ -197,7 +202,7 @@ body {
 #bull {
 	position: relative;
 	top: 4.5px;
-	font-size: 22px;
+	font-size: 26px;
 	margin-right: 9px;
 }
 
@@ -251,9 +256,10 @@ body {
 
 .about .bull {
 	position: relative;
-	top: 7px;
+	top: 17px;
 	color: #77008B;
 	font-size: 38px;
+	font-size: 3.5em;
 }
 
 .about .col{
