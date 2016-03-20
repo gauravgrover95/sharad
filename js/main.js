@@ -37,10 +37,14 @@ var transitNavDown = function() {
 $(".logo").mouseenter(function(){
     $(".logo h1").fadeOut(0);
     $(".logo p, .logo h3").fadeIn(220);
+    $(".logo #logo-lg").hide();
+    // $(".logo #logo-lg").attr("src","second.jpg");
 });
 $(".logo").mouseleave(function(){
     $(".logo h1").fadeIn(220);
     $(".logo p, .logo h3").fadeOut(0);
+    $(".logo #logo-lg").show();
+    $("#logo-lg").attr("src","img/logo-lg.svg");
 });
 
 

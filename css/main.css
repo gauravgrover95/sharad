@@ -30,10 +30,10 @@ body {
 .wrapper {
 	position: relative;
 	background: #6643A4; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left bottom, #6643A4, #B600A0); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(top right, #6643A4, #B600A0); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(top right, #6643A4, #B600A0); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to top right, #6643A4, #B600A0); /* Standard syntax */
+	background: -webkit-linear-gradient(left bottom, #6643A4 20%, #B600A0); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top right, #6643A4 20%, #B600A0); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top right, #6643A4 20%, #B600A0); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #6643A4 20%, #B600A0); /* Standard syntax */
 	height: 100vh;
 }
 
@@ -137,10 +137,8 @@ body {
 	display: table;
 	margin: auto;
 	width: 50vw;
-	/*border: 1px dashed white;*/
 	height: 300px;
 	color: white;
-	background: url(img/logo-lg.svg) !important;
 	font-family: "Regencie Light";
 	letter-spacing: 4px;
 }
@@ -166,6 +164,7 @@ body {
 	font-family: "Hero-Light"; 
 	font-size: 60px;
 	margin: 0;
+	display: none;
 }
 
 .logo p {
@@ -325,14 +324,14 @@ body {
 
 .about .resume {
 	position: relative;
-	width: 155px;
+	width: 165px;
 	font-weight: bold;
 	background: #77008B;
 	border-radius: 5px;
 	text-transform: capitalize;
 	font-family: "Hero-Light" !important;
-	/*font-family: Times;*/
 	font-size: 16px;
+	margin-top: 40px !important;
 }
 
 .about .resume span {
@@ -377,19 +376,25 @@ body {
 	margin: 20px auto; 
 }
 
+.work h3 {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
 .work .btns {
 	display: inline-block;
-	margin: auto;
+	margin: 20px auto;
 }
 
 .work .btns .btn {
 	color: white;
-	width: 200px;
+	width: 180px;
 }
 
 .drbl-btn {
 	background: #EA4C89;
 	position: relative;
+	margin-right: 10px;
 }
 
 .drbl-btn img{
@@ -401,12 +406,15 @@ body {
 .be-btn {
 	position: relative;
 	background: #2E99D1;
+	padding-left: 50px;
+	margin-left: 10px;	
 }
 
 .be-btn img {
 	position: absolute;
 	top: 8px;
 	left: 20px;
+	margin-right: 50px;
 }
 
 .work .foot {
@@ -435,11 +443,11 @@ body {
 }
 
 .contact .container-l h5{
-	margin-left: 6px; 
+	margin-left: -2px; 
 } 
 
 .contact .container-l p {
-	margin-left: 6px; 
+	margin-left: -2px; 
 }
 /*
 .contact .container-r {
@@ -455,6 +463,18 @@ body {
 	background: purple;
 	margin: auto;
 	margin-top: 30px;
+}
+
+.contact .submit {
+	float: right;
+	position: relative;
+	width: 155px;
+	font-weight: bold;
+	background: #77008B;
+	border-radius: 5px;
+	text-transform: capitalize;
+	font-family: "Hero-Light" !important;
+	font-size: 16px;
 }
 
 .contact .text-center {
