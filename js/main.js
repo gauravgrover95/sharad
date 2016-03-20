@@ -1,15 +1,28 @@
 
-// Logo
+// device height;
+	var h = window.innerHeight
+	|| document.documentElement.clientHeight
+	|| document.body.clientHeight;
+
+if(h > 800) {
+	$(".info-page").css("top","10vh");
+}
 
 var transitNavUp = function() {
 
-
-	$(".icons").transition({y:'-6vh'}, 500, 'ease');
-	$("#lgt").css("position", "absolute");
-	$("#lgt").css("left", "0px");
-	$("#lgt").transition({y:'-6vh'}, 500, 'ease');
-	// setTimeout(function(){ $("#name").fadeIn();}, 1200);
-
+	if(h > 800) {
+		$(".icons").transition({y:'-2vh'}, 500, 'ease');
+		$("#lgt").css("position", "absolute");
+		$("#lgt").css("left", "0px");
+		$("#lgt").transition({y:'-2vh'}, 500, 'ease');
+		// setTimeout(function(){ $("#name").fadeIn();}, 1200);
+	} else {
+		$(".icons").transition({y:'-5vh'}, 500, 'ease');
+		$("#lgt").css("position", "absolute");
+		$("#lgt").css("left", "0px");
+		$("#lgt").transition({y:'-5vh'}, 500, 'ease');
+		// setTimeout(function(){ $("#name").fadeIn();}, 1200);
+	}
 };
 
 var transitNavDown = function() {
@@ -22,12 +35,12 @@ var transitNavDown = function() {
 };
 
 $(".logo").mouseenter(function(){
-    $(".logo h1").fadeOut();
-    $(".logo p").fadeIn();
+    $(".logo h1").fadeOut(0);
+    $(".logo p, .logo h3").fadeIn(220);
 });
 $(".logo").mouseleave(function(){
-    $(".logo h1").fadeIn();
-    $(".logo p").fadeOut();
+    $(".logo h1").fadeIn(220);
+    $(".logo p, .logo h3").fadeOut(0);
 });
 
 

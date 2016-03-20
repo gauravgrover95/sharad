@@ -140,7 +140,7 @@ body {
 	/*border: 1px dashed white;*/
 	height: 300px;
 	color: white;
-	background: url(img/logo.svg);
+	background: url(img/logo-lg.svg) !important;
 	font-family: "Regencie Light";
 	letter-spacing: 4px;
 }
@@ -161,12 +161,20 @@ body {
 	text-align: center;
 }
 
+.logo h3 {
+	text-align: center;
+	font-family: "Hero-Light"; 
+	font-size: 60px;
+	margin: 0;
+}
+
 .logo p {
 	position: relative;
 	font-size: 18px;
 	display: none;
-	top: 40px;
-}
+	font-family: "Hero-Light"; 
+	text-align: center;
+}	
 
 
 
@@ -180,6 +188,7 @@ body {
 	box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	overflow-y: scroll;
 }
+
 
 .btn-close {
 }
@@ -342,6 +351,7 @@ body {
 
 .about .foot {
 	margin-top: 100px;
+	margin-bottom: 20px;
 }
 
 
@@ -379,14 +389,29 @@ body {
 
 .drbl-btn {
 	background: #EA4C89;
+	position: relative;
+}
+
+.drbl-btn img{
+	position: absolute;
+	top: 5px;
+	left: 20px;
 }
 
 .be-btn {
+	position: relative;
 	background: #2E99D1;
+}
+
+.be-btn img {
+	position: absolute;
+	top: 8px;
+	left: 20px;
 }
 
 .work .foot {
 	margin-top: 100px;
+	margin-bottom: 20px;
 }
 
 
@@ -437,7 +462,8 @@ body {
 }
 
 .contact .foot {
-	margin-top: 150px;
+	margin-top: 180px;
+	margin-bottom: 20px;
 }
 
 * {
@@ -461,4 +487,9 @@ body {
 
 .btn:hover {
 	background: purple;
+	box-shadow: none;
+}
+
+.btn {
+	box-shadow: none;
 }
