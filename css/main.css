@@ -144,17 +144,17 @@ body {
 }
 
 #logo-lg {
-	position: absolute;
-	/*top: */
-	left: 210px;
+	display: block;
+	margin: auto;
 	height: 174.4px;
 	width: 182px;
 }
 
 .logo h1 {
-	position: absolute;
-	top: 55px;
-	left: 30px;
+	position: relative;
+	display: block;
+	margin: auto;
+	top: -105px;
 	font-size: 41px;
 	text-align: center;
 }
@@ -512,4 +512,45 @@ body {
 
 .btn {
 	box-shadow: none;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 600px) {
+	#lgt {
+		display: none;
+	}
+
+	.icons {
+		position: relative;
+		display: block;
+		margin: auto;
+		/*border: 1px solid white;*/
+	}
+}
+
+@media screen and (max-width: 420px) {
+
+	.icons {
+		/*right: initial;*/
+		/*margin: 1px auto 1px auto;*/
+		right: 9vw;
+	}
+
+	.logo h1{
+		font-size: 30px;
+		top: -150px;
+	}
+
+	.logo h3 {
+		font-size: 26px;
+	}
+
+
+	.logo p{
+		font-size: 14px;
+	}
+
 }
