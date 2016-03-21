@@ -49,7 +49,7 @@ $(".logo").mouseleave(function(){
 
 
 
-$(".iclose, .btn-close").click(function() {
+$(".iclose, .btn-close, .navbar").click(function() {
 	$(".about, .work, .contact").css("animation-duration", "0.8s").removeClass("animated bounceInUp").addClass("animated slideOutDown");
 	console.log("iclose clicked");
 	transitNavDown();

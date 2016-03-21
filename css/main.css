@@ -276,6 +276,7 @@ body {
 
 
 #arr {
+	display: none;
 	position: absolute;
 	top: 30px !important;	
 	right: 3px;
