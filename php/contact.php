@@ -4,7 +4,7 @@
     $message = $_POST['message'];
 
     $from = 'From: My-Website'; 
-    $to = 'sriramsarad@gmail.com'; 
+    $to = 'gauravgrover95@gmail.com'; 
     $subject = 'Mail sent by a fan from the My-Website';
 
 
@@ -17,5 +17,5 @@
 	    } else { 
 	        echo '<p>Something went wrong, go back and try again!</p>'; 
 	    }
-
+	}
 ?>
