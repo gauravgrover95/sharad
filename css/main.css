@@ -581,13 +581,9 @@ body {
 		font-size: 14px;
 	}
 
-	.about .wrapper, .work .wrapper, .contact .wrapper {
+	.about .wrapper, .work .wrapper, .contact .wrapper{
 		width: 100vw;
 		overflow-x: hidden;
-	}
-
-	.contact .container-l h5{
-		width: 100% !important;
 	}
 
 	.about .jumbotron h2 {
@@ -619,7 +615,6 @@ body {
 	.about .block {
 		font-size: 13px;
 		width: 100vw;
-		/*text-align: center;*/
 		padding: 0 9vw;
 	}
 
@@ -651,6 +646,32 @@ body {
 		margin-left: 0;
 	}
 
+	.contact .col {
+		padding: 0;
+	}
+
+	.contact .container-l {
+	 	display: block;
+		width: 100vw;
+		padding: 0 10vw;
+	}
+	.contact .container-r {
+	 	display: none;
+	}
+
+	.contact .btn {
+		float: none;
+		display: table;
+		margin: 0 auto;
+	}
+
+	.contact .container {
+		margin: 0 0;
+	}
+
+	.contact .foot {
+		margin-top: 70px;
+	}
 }
 
 @media screen and (min-height: 800px) {
