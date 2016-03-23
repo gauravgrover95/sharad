@@ -630,7 +630,26 @@ body {
 		font-size: 13px;
 	}
 
+	.work .jumbotron h2 {
+		font-size: 29px;
+	}
 
+	.work .jumbotron p {
+		font-size: 17px;
+	}
+
+	.work h3 {
+		font-size: 29px;
+	}
+
+	.work .btns .drbl-btn {
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+
+	.work .btns .be-btn {
+		margin-left: 0;
+	}
 
 }
 
