@@ -580,6 +580,15 @@ body {
 		font-size: 14px;
 	}
 
+	.about .wrapper, .work .wrapper, .contact .wrapper {
+		width: 100%;
+		overflow-x: hidden;
+	}
+
+	.contact .container-l h5{
+		width: 100% !important;
+	}
+
 }
 
 @media screen and (min-height: 800px) {
