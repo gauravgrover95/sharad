@@ -582,7 +582,7 @@ body {
 	}
 
 	.about .wrapper, .work .wrapper, .contact .wrapper {
-		width: 100%;
+		width: 100vw;
 		overflow-x: hidden;
 	}
 
@@ -605,10 +605,24 @@ body {
 		font-family: "Hero-Light";
 	}
 
+	.about .col {
+		padding-left: 0;
+	}
+
+	.about .container {
+		width: 100vw;
+		margin-top: 20px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
 	.about .block {
 		font-size: 13px;
-		width: 80%;
+		width: 100vw;
+		/*text-align: center;*/
+		padding: 0 9vw;
 	}
+
 
 
 	.about .block small {

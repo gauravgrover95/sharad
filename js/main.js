@@ -4,6 +4,10 @@
 	|| document.documentElement.clientHeight
 	|| document.body.clientHeight;
 
+// device width;
+	var w = window.innerWidth
+	|| document.documentElement.clientWidth
+	|| document.body.clientWidth;
 
 var transitNavUp = function() {
 
@@ -13,6 +17,11 @@ var transitNavUp = function() {
 		$("#lgt").css("left", "0px");
 		$("#lgt").transition({y:'-2vh'}, 500, 'ease');
 		// setTimeout(function(){ $("#name").fadeIn();}, 1200);
+	} else if(w < 420) {
+		$(".icons").transition({y:'-1vh'}, 500, 'ease');
+		$("#lgt").css("position", "absolute");
+		$("#lgt").css("left", "0px");
+		$("#lgt").transition({y:'-1vh'}, 500, 'ease');
 	} else {
 		$(".icons").transition({y:'-4vh'}, 500, 'ease');
 		$("#lgt").css("position", "absolute");
