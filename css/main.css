@@ -393,6 +393,11 @@ body {
 	margin: 20px auto; 
 }
 
+.work .imgs img {
+	height: 120px;
+	width: 200px;
+}
+
 .work h3 {
 	margin-top: 40px;
 	margin-bottom: 30px;
@@ -631,6 +636,17 @@ body {
 
 	.work .jumbotron p {
 		font-size: 17px;
+	}
+
+	.work .imgs img {
+		height: 158px;
+		width: 100%;
+	}
+
+	.work .imgs {
+		width: 100%;
+		height: auto;
+		margin: 20px 0;
 	}
 
 	.work h3 {
