@@ -324,6 +324,7 @@ body {
 	cursor: pointer;
 }
 
+
 .about .block small {
 	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
@@ -588,6 +589,34 @@ body {
 	.contact .container-l h5{
 		width: 100% !important;
 	}
+
+	.about .jumbotron h2 {
+		font-size: 22px;
+	}
+
+	.about .jumbotron p {
+		font-size: 14px;
+		line-height: 40%;
+	}
+
+	.about h5 {
+		margin-bottom: 13px;
+		font-size: 18px;
+		font-family: "Hero-Light";
+	}
+
+	.about .block {
+		font-size: 13px;
+		width: 80%;
+	}
+
+
+	.about .block small {
+		font-family: 'Raleway', sans-serif;
+		font-size: 13px;
+	}
+
+
 
 }
 
