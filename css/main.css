@@ -675,7 +675,11 @@ body {
 	}
 
 	.info-page .foot {
-		font-size: 13px;
+		font-size: 12px;
+	}
+
+	.info-page .about .foot {
+		font-size: 15px;
 	}
 }
 
