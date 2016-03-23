@@ -14,10 +14,10 @@ var transitNavUp = function() {
 		$("#lgt").transition({y:'-2vh'}, 500, 'ease');
 		// setTimeout(function(){ $("#name").fadeIn();}, 1200);
 	} else {
-		$(".icons").transition({y:'-3.6vh'}, 500, 'ease');
+		$(".icons").transition({y:'-4vh'}, 500, 'ease');
 		$("#lgt").css("position", "absolute");
 		$("#lgt").css("left", "0px");
-		$("#lgt").transition({y:'-3.6vh'}, 500, 'ease');
+		$("#lgt").transition({y:'-4vh'}, 500, 'ease');
 		// setTimeout(function(){ $("#name").fadeIn();}, 1200);
 	}
 };

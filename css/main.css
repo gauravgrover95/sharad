@@ -200,6 +200,9 @@ body {
 	overflow-y: scroll;
 }
 
+.info-page::-webkit-scrollbar { 
+    display: none; 
+}
 
 .btn-close {
 }
@@ -462,6 +465,17 @@ body {
 .contact .container-l p {
 	margin-left: -2px; 
 }
+
+.input-field input[type=text]:focus + label , .input-field input[type=email]:focus + label, #message:focus + label{
+     color: #832BA3;
+}
+
+/* label underline focus color */
+   .input-field input[type=text]:focus, .input-field input[type=email]:focus, #message:focus{
+     border-bottom: 1px solid #832BA3;
+     box-shadow: 0 1px 0 0 #832BA3;
+}
+
 /*
 .contact .container-r {
 	float: right;
