@@ -4,9 +4,6 @@
 	|| document.documentElement.clientHeight
 	|| document.body.clientHeight;
 
-if(h > 800) {
-	$(".info-page").css("top","10vh");
-}
 
 var transitNavUp = function() {
 

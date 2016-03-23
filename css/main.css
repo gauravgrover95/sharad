@@ -133,7 +133,7 @@ body {
 
 .logo {
 	position: relative;
-	top: 40px;
+	top: 93px;
 	display: table;
 	margin: auto;
 	width: 50vw;
@@ -566,4 +566,13 @@ body {
 		font-size: 14px;
 	}
 
+}
+
+@media screen and (min-height: 800px) {
+	.logo {
+		top: 18vh;
+	}
+	.info-page {
+		top: 10vh;
+	}
 }
