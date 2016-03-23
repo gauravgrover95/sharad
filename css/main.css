@@ -671,6 +671,11 @@ body {
 
 	.contact .foot {
 		margin-top: 70px;
+		font-size: 
+	}
+
+	.info-page .foot {
+		font-size: 13px;
 	}
 }
 
